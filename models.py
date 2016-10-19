@@ -7,7 +7,7 @@ class mutabaah(models.Model):
 
      tanggal = fields.Date()
 
-     shubuh = fields.Boolean (default= False,required=True)
+
      zuhur = fields.Boolean (default= False, required=True)
      ashar = fields.Boolean (default= False,required=True)
      maghrib = fields.Boolean (default= False,required=True)
@@ -16,6 +16,7 @@ class mutabaah(models.Model):
      dhuha = fields.Boolean (default= False,required=True)
      tilawah = fields.Char()
      itikaf = fields.Boolean (default= False,required=True)
+     shubuh = fields.Boolean(default=False, required=True)
 
 
 
