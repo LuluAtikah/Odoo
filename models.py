@@ -16,7 +16,7 @@ class mutabaah(models.Model):
      dhuha = fields.Boolean (default= False,required=True)
      tilawah = fields.Char()
      itikaf = fields.Boolean (default= False,required=True)
-     baca_buku = fields.Boolean(default=False, required=True)
+
 
 
 
